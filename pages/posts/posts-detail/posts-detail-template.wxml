@@ -1,0 +1,17 @@
+<template name="posts-detail">
+  <view class="container">
+    <view class="image-container">
+       <image class="image-icon" src="{{img.img_icon}}"></image>
+      <text class="text-date">{{date}}</text>
+    </view>
+    <text class="title-text">{{title}}</text>
+    <image class="content-image" src="{{img.img_content}}"></image>
+    <text class="content-text">{{content}}</text>
+    <view class="chat-view-icon-container">
+      <image class="chat-icon" src="/images/icon/chat.png"></image>
+      <text class="chat-text" style="color:red">{{appreciate}}</text>
+      <image class="view-icon" bindtap="onViewImageTap" data-view="{{item.view}}" src="/images/icon/view.png"></image>
+      <text  class="view-text"  style="color:blue">{{onViewVaule}}</text>
+    </view> 
+  </view>
+</template>

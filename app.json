@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/posts/post",
+    "pages/news/news",
+    "pages/welcome/welcome",
+    "pages/movies/movies",
+    "pages/novels/novels"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "yellow"
+  },
+  "tabBar": {
+    "borderStyle":"white",
+    "color":"black",
+    "selectedColor":"blue",
+    "list": [
+      {
+        "pagePath": "pages/posts/post",
+        "text": "时讯",
+        "iconPath": "/images/tab/yuedu.png",
+        "selectedIconPath": "/images/tab/yuedu_hl.png"
+      },
+      {
+        "pagePath": "pages/movies/movies",
+        "text": "电影",
+        "iconPath": "/images/tab/dianying.png",
+        "selectedIconPath": "/images/tab/dianying_hl.png"
+      },
+      {
+        "pagePath": "pages/novels/novels",
+        "text": "小说",
+        "iconPath": "/images/tab/ciwei.png",
+        "selectedIconPath": "/images/tab/ciwei_hl.png"
+      }
+    
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+<!-- 样式编码，先静后动 -->
+<view class="container">
+<view class="image-container">
+<image src="{{isPlayingMusic?dataDetail.music.coverImg:dataDetail.head_image}}"></image>
+<image src="{{isPlayingMusic?dataDetail.music.coverImg:dataDetail.head_image}}"></image>
+</view>
+<image class="audio-start" catchtap="onMusicTap" src="{{isPlayingMusic?'/images/music/music-stop.png':'/images/music/music-start.png'}}"></image>
+<view class="author-register">
+<image class="author-img" src="{{dataDetail.img.img_icon}}"></image>
+<text class="author">{{dataDetail.author}}</text>
+<text class="record">{{dataDetail.record}}</text>
+<text class="date">{{dataDetail.date}}</text>
+</view>
+<text class="title">{{dataDetail.title}}</text>
+<view class="review-click-container">
+<view class="son-container">
+<image wx:if="{{collected}}" catchtap="onCovertTap" src="/images/icon/collection.png"></image>
+<image wx:else catchtap="onCovertTap" src="/images/icon/collection-anti.png"></image>
+<image class="share-img" catchtap="onSahreTap" src="/images/icon/share.png"></image>
+</view>
+<view class="horizon"></view>
+</view>
+<view class="content-container">
+<text class="content">{{dataDetail.detail}}</text>
+</view>
+</view>

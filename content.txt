@@ -1,0 +1,49 @@
+var post_datalink{
+img:{
+img_icon:"/images/avatar/1.png",
+img_content:"/images/post/bl.png"
+}
+date:August 6 2017,
+title:"帅气到爆炸",
+content:"啦啦啦德玛西亚"
+appreciate:666,
+view:888，
+music: 
+{
+ url: "http://ws.stream.qqmusic.qq.com/C100003507bR0gDKBm.m4a?fromtag=38",
+ title: "夜夜夜夜-齐秦",
+ coverImg: "http://y.gtimg.cn/music/photo_new/T002R150x150M000001TEc6V0kjpVC.jpg?max_age=2592000"
+ }，
+}
+var post_datalink2{
+img:{
+img_icon:"/images/avatar/5.png",
+img_content:"/images/post/crab.png"
+}
+date:August 7 2017,
+title:"帅气到爆炸",
+content:"啦啦啦德玛西亚-银河之力"
+appreciate:334,
+view:123，
+ music: {
+            url: "http://ws.stream.qqmusic.qq.com/C100004HLusI2lLjZy.m4a?fromtag=38",
+            title: "女儿情-万晓利",
+            coverImg: "http://y.gtimg.cn/music/photo_new/T002R150x150M000004Wv5BO30pPc0.jpg?max_age=2592000"
+        }，
+}
+var post_datalink3{
+img:{
+img_icon:"/images/avatar/3.png",
+img_content:"/images/post/sls.png"
+}
+date:August 8 2017,
+title:"帅气到爆炸",
+content:"啦啦啦德玛西亚-我不服输"
+appreciate:11,
+view:555，
+music: {
+            url: "http://ws.stream.qqmusic.qq.com/C100000Zn0vS4fKKo8.m4a?fromtag=38",
+            title: "沉默是金-张国荣",
+            coverImg: "http://y.gtimg.cn/music/photo_new/T002R150x150M000003at0mJ2YrR2H.jpg?max_age=2592000"
+        }，
+}

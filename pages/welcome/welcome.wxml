@@ -1,0 +1,11 @@
+<view class="container">
+<image class="user_icon" src="/images/avatar/5.png"></image>
+<text class="user_name">Hello,Kai</text>
+<view class="moto_container" bindtap="onTap">
+<text class="moto">欢迎进入首页面</text>
+<!-- 冒泡和非冒泡事件的区别就是：
+冒泡事件是点击子事件时父事件（包含子事件的容器）也会响应方法实现
+非冒泡事件是点击子事件时父事件不发生响应  
+bindtap 冒泡事件 catchtap 非冒泡事件-->
+</view>
+</view>
